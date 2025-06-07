@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #1A293B;
+    background: linear-gradient(90deg,rgba(26, 41, 59, 1) 0%, rgba(42, 71, 94, 1) 100%);
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+.link:hover{
+    transform: scale(1.20);
+}
+main {
+    width: 1024px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cabe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.nave{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.15);
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+}
+.jogo-img{
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+}
+.jogo{
+    display: flex;
+    gap: 500px;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.jogo:hover{
+    transform: scale(1.03);
+}
+.back-color{
+    background-color: #0C161F;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    height: 330px;
+    padding-left: 17px;
+}
+.jogar{
+    text-decoration: none;
+    color: hwb(120 0% 0%);
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+.jogar:hover{
+    transform: scale(1.05);
+}
+.infosjg{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+h3{
+    font-size: 22px;
+}
+p{
+    font-size: 17px;
+}
+.baixar {
+  width: 1024px;
+  height: 50px;
+  margin-top: 80px;
+}
+.botao2 {
+  width: 150px;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+}
+.botao2 {
+  display: block;
+  margin: 0 auto;
+}
+.link-bt{
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    main {
+        width: auto;
+        justify-content: center;
+    }  
+    section{
+        justify-content: center;
+    }
+    h1{
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+    .jogo{
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+    }
+    .jogo-img{
+        margin-top: -11px;
+        padding-top: 30px;
+        height: 500px;
+        width: 500px;
+        margin-bottom: 20px;
+        justify-content: center;
+        margin-right: 16px;
+    }
+    .todos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .back-color{
+        width: 500px;
+        height: 680px;
+    }
+    .infosjg{
+        text-align: center;
+        font-size: 18px;
+    }
+    p{
+        margin-bottom: 8px;
+    }
+    h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+        
+    }
+    .jogar{
+        font-size: 20px;
+    }
+    .baixar{
+    width: 497px;       
+    }
+}

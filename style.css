@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: #1A293B;
+    background: linear-gradient(90deg,rgba(26, 41, 59, 1) 0%, rgba(42, 71, 94, 1) 100%);
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+main {
+    width: 1024px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.baixar {
+  width: 1024px;
+  height: 50px;
+  margin-top: 80px;
+}
+.botao2 {
+  width: 150px;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+}
+.botao2 {
+  display: block;
+  margin: 0 auto;
+}
+.link-bt{
+    text-decoration: none;
+}
+.cabe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.nave{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+.logo:hover{
+    transform: scale(1.15);
+}
+.ofertas {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.infos{
+    background-color: #0C161F;
+    margin-top: -5px;
+    padding: 5px;
+}
+.nome{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.nome2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.infos-g{
+    width: 506px;
+}
+.quadros {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 170px;
+}
+.gta-img{
+    height: 450px;
+    width: 850px;
+}
+.gtaaa {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #0C161F;
+    width: 1050px;
+    transition: transform 0.3s ease;
+}
+
+.quadro-grande-img {
+    width: 506px;
+    height: 300px;
+}
+
+.quadros-pequeno {
+    display: flex;
+    gap: 20px;
+}
+.quadro-grande{
+    transition: transform 0.3s ease;
+}
+
+.quadro-pequeno {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.quadro-pequeno-img {
+    width: 243px;
+    height: 150px;
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+.nome-gta{
+    font-size: 30px;
+}
+.preco-gta{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.botao{
+    width: 160px;
+    height: 40px;
+    background-color: hwb(87 13% 11%);
+}
+.botao:hover{
+    background-color: #c0ff62;
+}
+.gtaaa:hover{
+    transform: scale(1.02);
+}
+.quadro-pequeno:hover{
+    transform: scale(1.05);
+}
+.quadro-grande:hover{
+    transform: scale(1.05);
+}
+.link:hover{
+    transform: scale(1.20);
+}
+.lanca{
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+    main {
+        width: auto;
+    }
+    
+    .quadro-pequeno-img {
+        width: 497px;
+        height: 300px;
+    }
+    .quadro-grande-img{
+        width: 497px;
+        height: 300px;
+    }
+    .infos{
+        width: 497px;
+    }
+    .ofertas {
+        flex-direction: column; 
+    }
+
+    .quadros-pequeno {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column;
+    }
+    .gtaaa{
+        flex-direction: column;
+        width: 497px;
+        height: 460px;
+    }
+    .gta-img{
+        width: 497px;
+        height: 300px;
+    }
+    .gta{
+        flex-direction: column;
+        margin-top: -5px;
+        margin-left: -300px;
+    }
+    .botao{
+        margin-top: -15px;
+    }
+    .baixar{
+    width: 497px;       
+    }
+}
